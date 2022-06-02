@@ -1,0 +1,119 @@
+body {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    background-color:#006D4C;
+    font-family: Comic Sans MS;
+}
+
+input {
+    width: 100%;
+    height: 27px;
+    padding-left: 10px;
+    border: 5px solid #584DFF;
+    border-radius: 15px;
+    background: #F3C9B3;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    font-size: 14px;
+    color: #A66400;
+}
+
+label {
+    font-size: 40px;
+    font-weight: bold;
+    color: #A66400;
+    justify-content: center;
+}
+
+
+
+.filter {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    color: #A66400;
+}
+
+.filterBtn {
+    margin: 0 0 0 50px;
+}
+
+.filterBtn:hover {
+    color: #59b6f8;
+    cursor: pointer;
+}
+
+.block {
+    width: 900px;
+    margin: auto;
+    justify-content: center;
+}
+
+#input {
+    width: 400px;
+    font-weight: bold;
+}
+.close {
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+
+}
+
+
+#addTodoButton {
+    width: 100px;
+    height: 41px;
+    background-color: #F3C9B3;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    border: 5px solid #584DFF;
+    border-radius: 15px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    height: 300px;
+    width: 100%;
+}
+
+#result {
+    margin-bottom: 10px;
+}
+
+
+ul li {
+    padding: 3px 8px;
+    background: #F3C9B3;
+    border: none;
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    text-transform: capitalize;
+    border: 3px solid #584DFF;
+    border-radius: 15px;
+}
+
+ul li.completed {
+    background: #0EF094;
+    color: #0005BD;
+    text-decoration: line-through;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+
